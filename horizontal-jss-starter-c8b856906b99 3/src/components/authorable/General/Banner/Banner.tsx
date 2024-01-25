@@ -38,10 +38,10 @@ const Banner = ({ fields }: bannerDataProps) => {
     verticalSwiping: true,
     arrows: false,
 
-    beforeChange: function (currentSlide: any, nextSlide: any) {
+    beforeChange: function (currentSlide: unknown, nextSlide: unknown) {
       console.log('before change', currentSlide, nextSlide);
     },
-    afterChange: function (currentSlide: any) {
+    afterChange: function (currentSlide: unknown) {
       console.log('after change', currentSlide);
     },
   };
